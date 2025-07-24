@@ -94,5 +94,8 @@ const menuDelete =async(req,res)=>{
   }
 }
 
+const menuUpdate1 = (req,res)=>{
+res.send("heelo world");
+}
 
 module.exports = {menuRegister,menuGET,menuTaste,menuUpdate,menuDelete};
